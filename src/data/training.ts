@@ -1,0 +1,93 @@
+import type { Training } from "@/types";
+
+export const trainings: Training[] = [
+  {
+    id: "t1",
+    title: "Labor Market Data Analysis",
+    duration: "4 Weeks",
+    level: "Intermediate",
+    format: "Hybrid",
+    href: "/training/labor-market-data-analysis",
+    description:
+      "Learn how to analyze employment trends, workforce statistics, and labor market indicators.",
+    isFeatured: true,
+  },
+  {
+    id: "t2",
+    title: "Workforce Policy Design",
+    duration: "6 Weeks",
+    level: "Advanced",
+    format: "Online",
+    href: "/training/policy-design-evaluation",
+    description:
+      "Develop the skills needed to design and evaluate employment policies.",
+    isFeatured: true,
+  },
+  {
+    id: "t3",
+    title: "Workforce Development Strategies",
+    duration: "5 days",
+    level: "Intermediate",
+    format: "In-person",
+    href: "/training/workforce-development-strategies",
+    description:
+      "Strategic approaches to workforce planning and skills development.",
+    isFeatured: true,
+  },
+  {
+    id: "t4",
+    title: "Public Sector Leadership for Employment",
+    duration: "2 weeks",
+    level: "Advanced",
+    format: "Hybrid",
+    href: "/training/public-sector-leadership",
+  },
+  {
+    id: "t5",
+    title: "Youth Employment Program Design",
+    duration: "6 days",
+    level: "Intermediate",
+    format: "Online",
+    href: "/training/youth-employment-program-design",
+  },
+  {
+    id: "t6",
+    title: "Gender and Labor Markets",
+    duration: "4 days",
+    level: "Introductory",
+    format: "Online",
+    href: "/training/gender-labor-markets",
+  },
+  {
+    id: "t7",
+    title: "Digital Skills for Labor Market Analysts",
+    duration: "3 weeks",
+    level: "Intermediate",
+    format: "Hybrid",
+    href: "/training/digital-skills-analysts",
+  },
+  {
+    id: "t8",
+    title: "Monitoring & Evaluation of Employment Programs",
+    duration: "2 weeks",
+    level: "Advanced",
+    format: "Online",
+    href: "/training/me-employment-programs",
+  },
+  {
+    id: "t9",
+    title: "Private Sector Engagement for Jobs",
+    duration: "4 days",
+    level: "Introductory",
+    format: "In-person",
+    href: "/training/private-sector-engagement",
+  },
+  {
+    id: "t10",
+    title: "Labor Migration and Skills Mobility",
+    duration: "5 days",
+    level: "Intermediate",
+    format: "Hybrid",
+    href: "/training/labor-migration-skills-mobility",
+  },
+];
